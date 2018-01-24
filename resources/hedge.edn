@@ -1,0 +1,4 @@
+{:api {"aws-meetup-hello" {:handler hedge-test.core/hello
+                           :authorization :anonymous}
+       "aws-meetup-calc" {:handler hedge-test.core/calc
+                                  :authorization :anonymous}}}
